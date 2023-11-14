@@ -26,9 +26,9 @@ wsServe.on("connection", (socket) => {
     console.log(socket.room);
     socket.join(roomName)
     // 프론트에서 콜백함수 실행
-    setTimeout(() => {
-      done();
-    }, 10000)
+    // setTimeout(() => {
+    //   done();
+    // }, 10000)
   })
 })
 
